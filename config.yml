@@ -1,0 +1,21 @@
+Prefix: "§a正版认证 §b§l>>>§f "
+MaxAmount: 5
+Address: "https://authserver.mojang.com/authenticate"
+Success:
+  message: "§a认证成功! 请查看称号是否到账!"
+  Commands:
+  - "pex user %player% add ch.zb"
+Error:
+  notaplayer: "§c此命令仅限玩家使用！"
+  malformedURL: "§c出现未知错误, 请联系服主修复! 错误代码: MalformedURL!"
+  errorpassword: "§c邮箱或密码不正确, 请认真检查! 剩余认证次数: §f%amount%"
+  errorencoding: "§c出现未知错误, 请联系服主修复! 错误代码: ErrorEncoding!"
+  errorname: "§c该邮箱正版ID与您的游戏ID不同!"
+  maxamount: "§c您的认证次数已经达到上限!"
+  command:
+  - "§6§l§m §f§l§m            §r§e正版认证§f§l§m             §6§l§m "
+  - "§a命令: /zb <邮箱> <密码>"
+  - "§a总共有%amount%次认证机会"
+  - "§s本插件已经尽力防止密码泄露"
+  - "§a但还是推荐在认证后修改密码"
+  success: "§e你已经正版认证了!"

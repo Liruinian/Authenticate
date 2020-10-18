@@ -1,0 +1,7 @@
+name: Authenticate
+main: com.timlrn2016.authenticate.Authenticate
+version: 1.0
+author: Tim_LRN2016
+commands:
+  zb:
+    description: Command for Authenticate. Type “/zb”  to get help
